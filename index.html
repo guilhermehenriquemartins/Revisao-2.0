@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revisão 2.0</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
+  <link rel="stylesheet" href="estilos/first.css">
+</head>
+<body>
+  <main>
+    <section id="tela">
+      <div id="imagem">
+
+      </div>
+      <div id="formulario">
+        <h2>Login</h2>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        <form action="login.php" method="post" autocomplete="off">
+          <section id="email">
+            <span id="pessoa-login" class="material-icons">person</span>
+            <input type="email" name="email" id="iemail" placeholder="Seu e-mail">
+            <label for="iemail">E-Mail</label>
+          </section>
+          <section id="senha">
+            <span id="chave-senha" class="material-icons">vpn_key</span>
+            <input type="password" name="senha" id="isenha" placeholder="Sua senha">
+            <label for="isenha">Senha</label>
+          </section>
+          <input type="submit" value="Entrar">
+          <a href="#">Esqueci a senha
+            <span id="esqueci-senha" class="material-icons">mail</span>  
+          </a>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
